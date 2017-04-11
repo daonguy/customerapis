@@ -1,0 +1,7 @@
+applications:
+- services:
+  - customerDB
+  name: lab-customerapis
+  memory: 256m
+  instances: 1
+  path: .
